@@ -1,0 +1,40 @@
+                             How to Install Python 3.6.1 in Ubuntu 16.04 LTS
+
+
+run command to add the PPA:
+sudo add-apt-repository ppa:jonathonf/python-3.6
+
+
+Then check updates and install Python 3.6 via commands:
+sudo apt-get update
+sudo apt-get install python3.6
+
+
+Now you have three Python versions, use python command for version 2.7, python3 for version 3.5, and/or python3.6 for version 3.6.1.
+
+
+To make python3 use the new installed python 3.6 instead of the default 3.5 release, run following 2 commands:
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.5 1
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 2
+
+
+Finally switch between the two python versions for python3 via command:
+sudo update-alternatives --config python3
+
+
+After selecting version 3.6:
+
+python3 -V
+
+
+UPDATE: due to this bug, gnome-terminal won’t launch after step 3, a workaround is running following commands to recreate the symlink:
+
+sudo rm /usr/bin/python3
+
+sudo ln -s python3.5 /usr/bin/python3
+
+
+Install idle for Python 3/2 :
+command : sudo apt-get insatll idle3
+
+

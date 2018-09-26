@@ -1,0 +1,22 @@
+sudo apt-get update && apt-get upgrade
+
+sudo apt-get install gjs gir1.2-ibus-1.0 libibus-1.0-5 libibus-1.0-dev ibus-gtk ibus-gtk3 ibus-clutter ibus-qt4
+
+wget "https://github.com/maateen/avro/releases/download/v2.1/avro_2.1-3_all.deb"
+
+sudo dpkg -i avro_2.1-3_all.deb
+
+Go to System Settings ->Region & Language from GNOME Launcher
+
+Click on “+” icon under “Input Sources”
+
+Search “Bangla” & select “Bangla (Bangladesh)”
+
+Then select “Bengali (Avro Phonetic)” & you are all done.
+
+Finally, you will be able to find “Language Bar” in your active desktop taskbar
+
+
+keyboard shortcut to change keyboard : windows key + space bar 
+
+thanks...

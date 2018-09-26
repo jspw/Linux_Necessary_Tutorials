@@ -1,0 +1,11 @@
+
+
+WoeUSB is available for easy download (thanks to WebUpd8’s main PPA) for Ubuntu 14.04 and Ubuntu 16.04 to 17.04. The same PPA also supports Linux Mint 17.x and 18.x. Enter the following commands to add the PPA and install WoeUSB:
+
+$ sudo add-apt-repository ppa:nilarimogard/webupd8
+$ sudo apt update
+$ sudo apt install woeusb
+
+If you are only interested in trying out WoeUSB without adding it’s PPA to your repo then grab and install its latest .deb using the link below.
+
+http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/w/woeusb/

@@ -1,0 +1,12 @@
+To install xtreme download manager in Ubuntu, please follow these steps
+
+    Open a terminal window.
+
+    Type in the following commands, then hit Enter after each:
+
+    sudo add-apt-repository ppa:noobslab/apps        
+    sudo apt-get update        
+    sudo apt-get install xdman
+
+
+

@@ -1,0 +1,16 @@
+                            how to install tgz file in ubuntu
+
+
+
+
+    .tgz is an archive like zip or rar.
+    Right click on the file and select Extract Here.
+    cd to the extracted folder.
+    Then type ./configure
+    To install type make and then make install.
+    There will be a Read me file with instruction on how to install the file.
+    However the installation will differ based on the different packages.
+    So before installing the .tgz files i would strongly advice you to look at the read me file.
+    But installing software not in the software centre can be tricky and will not always work without some advanced knowledge.
+
+

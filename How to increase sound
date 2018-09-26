@@ -1,0 +1,13 @@
+
+
+
+
+
+on debian like for example
+
+sudo apt-get install pulseaudio
+
+then
+
+pactl -- set-sink-volume 0 210%
+

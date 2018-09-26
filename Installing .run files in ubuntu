@@ -1,0 +1,13 @@
+                                 Installing .run files in ubuntu:
+
+
+
+    Open a terminal(Applications>>Accessories>>Terminal).
+    Navigate to the directory of the .run file.
+
+    If you have your *.run in your desktop then type the following in terminal to get into Desktop and press Enter.
+
+    cd ~/Desktop
+    Then type chmod +x filename.run and press Enter.
+    Now type ./filename.run and press Enter, and the installer will run.
+

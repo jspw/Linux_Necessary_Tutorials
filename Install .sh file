@@ -1,0 +1,9 @@
+Open Applications -> Accessories -> Terminal.
+
+
+Find where the .sh file. Use the ls and cd commands. ls will list the files and folders in the current folder. Give it a try: type "ls" and press Enter. ...
+
+
+Run the .sh file. Once you can see for example script1.sh with ls run this: ./script.sh
+
+

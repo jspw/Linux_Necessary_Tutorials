@@ -1,0 +1,23 @@
+How to install sp flash tool in kali linux 2018.2 :
+
+
+1) sudo apt-get update [ command in terminal ]
+
+2) sudo apt install libusb-dev [ command in terminal ]
+
+3) sudo apt install libqtwebkit4  [ command in terminal ]
+
+
+
+4) download latest sp flash tool zip file for linux from https://androidmtk.com/smart-phone-flash-tool 
+extract the zip file
+
+5) Get in the extract folder of sp flash tool..
+open terminal...
+
+
+6) chmod +x flash_tool [ command in terminal ]
+
+7) ./flash_tool [ command in terminal ]
+
+now done ...Happy flasing....

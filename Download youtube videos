@@ -1,0 +1,29 @@
+          Download Youtube video, list of videos, playlist Ubuntu Linux
+
+
+install youtube-dl
+command :sudo apt-get install youtube-dl
+
+
+
+Download  a video :
+copy the link ,open terminal ,command : youtube-dl [link]
+
+
+
+Download selected multiple videos :
+create a txt file and coppy the link of the videos .thn command :youtube-dl -a [txt file name]
+
+
+Download from ith to jth of a  playlist:
+command:youtube-dl --playlist-start=i --playlist-end=j [link]
+
+Download full playlist:
+command:youtube-dl [playlistlink]
+
+Download video with substitle :
+command:youtube-dl --write-auto-sub [link]
+
+
+
+

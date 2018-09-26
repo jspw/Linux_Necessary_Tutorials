@@ -1,0 +1,5 @@
+Go to the folder where .deb file is download.
+Then open terminal in the direction or use cd to goto the direction .
+command :"ls" to see all files in the directory.
+command:"sudo dpkg -i [filename with extention(.deb)]"
+the installation process started !
