@@ -1,0 +1,8 @@
+install open jdk 8
+$ sudo apt-get install openjdk-8-jre 
+
+To compile the file, open your terminal and type 
+$ javac filename.java
+
+To run the generated class file, use
+$java filename
