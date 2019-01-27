@@ -1,0 +1,20 @@
+install gcc :
+
+$ sudo apt-get install gcc
+
+
+Run c files :
+
+$ gcc file_name.c -o new_file_name
+$ ./new_file_name
+
+
+install gcc :
+
+$ sudo apt-get install gcc
+
+Run cpp files :
+
+$ g++ file_name.cpp -o new_file_name
+$ ./new_file_name
+
