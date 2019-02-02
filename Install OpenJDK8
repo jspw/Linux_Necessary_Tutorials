@@ -1,0 +1,8 @@
+Add PPA :
+	$ sudo add-apt-repository ppa:openjdk-r/ppa
+
+Upadte : 
+	$ sudo apt-get update 
+
+Install : 
+	$ $ sudo apt-get install openjdk-8-jdk

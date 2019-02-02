@@ -1,0 +1,15 @@
+Add the repository by using the following in the terminal,
+
+$ sudo add-apt-repository ppa:noobslab/apps
+
+Then update your package list,
+
+$ sudo apt-get update
+
+And then installation,
+
+$ sudo apt-get install playonlinux
+
+
+
+
