@@ -6,6 +6,8 @@ wget "https://github.com/maateen/avro/releases/download/v2.1/avro_2.1-3_all.deb"
 
 sudo dpkg -i avro_2.1-3_all.deb
 
+Ubuntu 20.4  : `sudo apt install ibus-avro`
+
 Go to System Settings ->Region & Language from GNOME Launcher
 
 Click on “+” icon under “Input Sources”
